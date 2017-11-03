@@ -71,3 +71,17 @@ footer {
 .sociallink {
   display: inline;
 }
+
+article {
+  position: relative;
+}
+
+.articleheading {
+  display: inline-block;
+}
+
+.articledate {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+}
