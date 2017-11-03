@@ -67,3 +67,7 @@ footer {
   width: 80%;
   margin: 0 auto;
 }
+
+.sociallink {
+  display: inline;
+}
