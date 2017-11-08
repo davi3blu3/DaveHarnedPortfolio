@@ -9,6 +9,7 @@ header {
   text-align: center;
 }
 
+
 nav, footer {
   background-color: steelblue;
 }
@@ -84,4 +85,21 @@ article {
   position: absolute;
   display: inline-block;
   right: 0;
+}
+
+#greeting {
+  background-color: steelblue;
+  display: block;
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+  border: 5px solid red;
+}
+
+#greeting p {
+  margin: 0;
+  padding: 16px;
+  font-size: 25px;
+  color: white;
+  border: 5px solid yellow;
 }
