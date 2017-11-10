@@ -1,16 +1,9 @@
-var name = prompt("Hi there! What's your name?");
+
+var firstName = prompt("Hi there! What's your first name?") || "Visitor";
+
+var lastName = prompt("What is your last name?") || "McVisitous";
 
 var output = document.querySelector("#greeting");
 
-if (name) {
-  output.innerHTML = "<p>Thanks for visiting, " + name + ".</p>";
-} else {
-  output.innerHTML = "<p>Please give us your name!</p>"
-}
 
-
-
-
-// "asdlfkjasdfjasdfkjh" === true
-//
-// "" = false
+output.innerHTML = "<p>Thanks for visiting, " + firstName + " " + lastName + ".</p>";
