@@ -103,3 +103,14 @@ article {
   color: white;
   border: 5px solid yellow;
 }
+
+.highlighted {
+  color: cornflowerblue;
+  background-color: #F1948A;
+  padding: 5px;
+}
+
+#hidden-blurb {
+  display: none;
+  color: red;
+}
